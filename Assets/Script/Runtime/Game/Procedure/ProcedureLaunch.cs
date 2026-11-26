@@ -28,7 +28,7 @@ public class ProcedureLaunch : StateBase<GameEntry>
         _ = NetworkManager.Instance;
         _ = PlatformManager.Instance;
         _ = ToastManager.Instance;
-        _ = DialogManager.Instance;
+        _ = PanelManager.Instance;
         _ = RedDotManager.Instance;
         AppLog.Log("Procedure", "全系统核心服务预热完毕！");
     }
